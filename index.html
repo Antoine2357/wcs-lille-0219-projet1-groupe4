@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Bilbo" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"> 
     <meta name="description" content="L'écosystème numérique lillois">
     <meta name="keywords" content="numeric, Lille, digital, euratechnologies, euratech, plaine-images, BlancheMaille, eurasanté, agtech, technology, pole, poles, restaurant, eat, bar, environment,">
     <meta name="author" content="Wild Code School Lille">
@@ -15,16 +16,11 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-<body>
-    <div class="title text-center">
-      <h1>Lille's numeric ecosystem</h1>
-    </div>
-    <header id="plx">  
-        <h1 class="text-center wtitle"></h1>
-
-<br>
-        <!-- <a id="plx" href="bann"><img src="image/bann.png" class="img-fluid" alt="Responsive image"></a> -->
+<body class="container">
+    <header>
+        <h1 class="text-center">Lille's numeric ecosystem</h1>
+        <br>
+        <a href="bann"><img src="image/bann.png" class="img-fluid" alt="Responsive image"></a>
     </header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <a class="navbar-brand" href="#">Lille's numeric ecosystem</a>
@@ -70,187 +66,23 @@
     </section>
     <hr>
     <section id="euratechnologies">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <img src="image/story.jpeg" class="img-fluid" alt="photoEuratech">
-              <h5 class="card-title">EuraTech</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <!-- Button -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Large modal</button>  
-            </div> <!-- Fermeture card body -->
-              <!-- Modal  -->
-              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLongTitle">EuraTech</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores harum aliquam quisquam quibusdam, saepe mollitia, officiis voluptatibus perspiciatis non, ipsam accusamus. Recusandae distinctio in corporis perferendis quos reprehenderit eligendi voluptate.
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem debitis perferendis, tempora amet deleniti ratione dolor minus! Id tempora accusantium atque, eligendi vitae ad aliquid libero alias, at explicabo dolorem?
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-          </div>
-        </div>      
-
-        <div class="col-sm-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <img src="image/presentation.jpeg" class="img-fluid" alt="photoEuratech">
-              <h5 class="card-title">Story of EuraTech</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <!-- Button -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Large modal</button>
-            </div>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Story of EuraTech</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores harum aliquam quisquam quibusdam, saepe mollitia, officiis voluptatibus perspiciatis non, ipsam accusamus. Recusandae distinctio in corporis perferendis quos reprehenderit eligendi voluptate.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem debitis perferendis, tempora amet deleniti ratione dolor minus! Id tempora accusantium atque, eligendi vitae ad aliquid libero alias, at explicabo dolorem?
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-</div>
-
-
-
-<br>
-
-<!-- Large card -->
-<div class="card mb-3" style="max-width">
-        <div class="row no-gutters">
-            <div class="col-md-4 mt-2 mb-2">
-                <img src="image/enterprises.jpeg" class="card-img" alt="...">
-            </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h5 class="card-title">Enterprises</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <!-- Button modal -->
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
-                                Read more
-                        </button>
-                        <!-- Modal -->
-                            <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-scrollable" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalScrollableTitle">Enterprises</h5>
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                        </div>
-                                        <div class="modal-body">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti veritatis repellat iure laborum alias voluptates, dicta earum officiis nostrum natus, labore explicabo voluptatibus a praesentium reprehenderit, soluta veniam distinctio nisi!
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque iure eligendi neque! Cum dolore hic accusamus, deleniti odio nulla, sunt expedita aperiam modi nostrum reiciendis illum placeat tempore, error nisi?
-                                        </div>
-                                        <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-            </div>
-        </div>
-</div>
-
-
-<!-- Deux dernieres cards -->
-              <div class="row">
-        <div class="col-sm-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <img src="image/story.jpeg" class="img-fluid" alt="photoEuratech">
-              <h5 class="card-title">EuraTech</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <!-- Button -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Large modal</button>  
-            </div> <!-- Fermeture card body -->
-              <!-- Modal  -->
-              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLongTitle">EuraTech</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores harum aliquam quisquam quibusdam, saepe mollitia, officiis voluptatibus perspiciatis non, ipsam accusamus. Recusandae distinctio in corporis perferendis quos reprehenderit eligendi voluptate.
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem debitis perferendis, tempora amet deleniti ratione dolor minus! Id tempora accusantium atque, eligendi vitae ad aliquid libero alias, at explicabo dolorem?
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-          </div>
-        </div>      
-
-        <div class="col-sm-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <img src="image/presentation.jpeg" class="img-fluid" alt="photoEuratech">
-              <h5 class="card-title">Story of EuraTech</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <!-- Button -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">Large modal</button>
-            </div>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Story of EuraTech</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores harum aliquam quisquam quibusdam, saepe mollitia, officiis voluptatibus perspiciatis non, ipsam accusamus. Recusandae distinctio in corporis perferendis quos reprehenderit eligendi voluptate.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem debitis perferendis, tempora amet deleniti ratione dolor minus! Id tempora accusantium atque, eligendi vitae ad aliquid libero alias, at explicabo dolorem?
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-</div>
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/500X100.png?text=Euratechnologies"class="img-fluid" alt=""></a>
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/200.png" alt=""></a>
+        <h3>Euratechnologies' Presentation</h3>
+        <p>Text</p>
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/200.png" class="img-fluid"alt=""></a>
+        <h3>Euratechnologies' History</h3>
+        <p>Text</p>
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/200.png" class="img-fluid"alt=""></a>
+        <h3>Enterprises' Euratechnologies</h3>
+        <p>Text</p>
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/200.png" class="img-fluid"alt=""></a>
+        <h3>Eat around Euratechnologies</h3>
+        <p>Text</p>
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/200.png" class="img-fluid"alt=""></a>
+        <h3>Services around Euratechnologies</h3>
+        <p>Text</p>
+        <a href="https://placeholder.com"><img src="https://via.placeholder.com/500X100.png?text=Maps" class="img-fluid"alt=""></a>
     </section>
     <hr>
     <section id="poles">
