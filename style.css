@@ -25,25 +25,38 @@ h3
 p
 {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 150%;
+  font-size: 130%;
   font-weight: bold;
 }
 
 #qmark {
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
 }
 
 #photonum {
-  width: 20%;
-  display: flex;
-  flex-direction: right;
+  width: 150%;
 }
 
 #polenum {
-  width: 20%;
-  display: flex;
-  flex-direction: right;
+  width: 150%;
+}
+
+#border-right {
+  border-right: 1px solid #e6e6e6;
+}
+
+body {
+  background-image: url(image/bg_light.png)
+}
+
+#imgpole{
+    width: 30%;
+}
+
+#pole{
+    border: 1px solid black;
+    width: 70em;
 }
 /* Parallax */
 #plx {
