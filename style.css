@@ -103,3 +103,13 @@ body {
 .titleHeader {
   height: 50px;
 }
+
+#background {
+  background-image: url(bann.png);
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 10vw;
+  padding-bottom : 10 vw
+}
