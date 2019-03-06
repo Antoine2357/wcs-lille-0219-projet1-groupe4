@@ -30,18 +30,17 @@ p
 }
 
 #qmark {
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
 }
 
 #photonum {
-  width: 20%;
-  display: flex;
-  flex-direction: right;
+  width: 150%;
 }
 
 #polenum {
-  width: 20%;
-  display: flex;
-  flex-direction: right;
+  width: 150%;
 }
+
+
+
