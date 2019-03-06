@@ -25,7 +25,7 @@ h3
 p
 {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 150%;
+  font-size: 130%;
   font-weight: bold;
 }
 
@@ -58,4 +58,20 @@ body {
 #pole{
     border: 1px solid black;
     width: 70em;
+}
+/* Parallax */
+#plx {
+  background: url(image/bann.png);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.wtitle {
+  padding: 11%;
+  /* height: 50%; */
+}
+.titleHeader {
+  height: 50px;
 }
