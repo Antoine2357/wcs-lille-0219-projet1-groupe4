@@ -52,12 +52,12 @@ body {
 
 #imgpole{
     width: 30%;
-    padding: 1%;
 }
 
 #pole{
     border: 1px solid black;
     width: 70em;
+    padding: 1%;
 }
 /* Parallax */
 #plx {
