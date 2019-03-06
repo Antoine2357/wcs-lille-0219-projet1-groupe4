@@ -52,10 +52,20 @@ body {
     width: 30%;
 }
 
-.pole{
-    border: 1px solid black;
-    width: 70em;
-    padding: 2%;
+#imgplaineimage{
+    width:30%
+}
+
+#imgagtech{
+    width: 30%
+}
+
+#imgeurasante{
+    width: 30%
+}
+
+#imgubiquitaire{
+    width: 30%
 }
 
 .nav-link
