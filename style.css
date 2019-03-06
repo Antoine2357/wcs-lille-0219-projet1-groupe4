@@ -35,12 +35,9 @@ p
   height: 2em;
 }
 
-#photonum {
-  width: 150%;
-}
-
-#polenum {
-  width: 150%;
+.lillenum {
+  width: 50%;
+  padding: 1%;
 }
 
 #border-right {
@@ -51,11 +48,11 @@ body {
   background-image: url(image/bg_light.png)
 }
 
-#imgpole{
+.imgpole{
     width: 30%;
 }
 
-#pole{
+.pole{
     border: 1px solid black;
     width: 70em;
 }
