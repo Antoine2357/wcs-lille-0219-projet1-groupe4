@@ -45,3 +45,12 @@ p
   display: flex;
   flex-direction: right;
 }
+
+#imgpole{
+    width: 30%;
+}
+
+#pole{
+    border: 1px solid black;
+    width: 70em;
+}
