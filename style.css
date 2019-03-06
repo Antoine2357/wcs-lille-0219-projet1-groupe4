@@ -45,3 +45,11 @@ p
   display: flex;
   flex-direction: right;
 }
+
+#border-right {
+  border-right: 1px solid #e6e6e6;
+}
+
+body {
+  background-image: url(image/bg_light.png)
+}
