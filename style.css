@@ -73,3 +73,33 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
 }
+
+
+
+#photonum {
+  width: 20%;
+  display: flex;
+  flex-direction: right;
+}
+
+#polenum {
+  width: 20%;
+  display: flex;
+  flex-direction: right;
+}
+/* Parallax */
+#plx {
+  background: url(image/bann.png);
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.wtitle {
+  padding: 11%;
+  /* height: 50%; */
+}
+.titleHeader {
+  height: 50px;
+}
