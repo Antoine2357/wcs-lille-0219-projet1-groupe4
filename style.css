@@ -64,6 +64,10 @@ body {
     width: 70em;
 }
 
+.pole{
+  text-align: justify;
+}
+
 .nav-link
 {
   text-align: center;
