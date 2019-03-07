@@ -2,70 +2,52 @@
 @import url('https://fonts.googleapis.com/css?family=Bilbo');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
-h1
-{
+h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 60px;
 
 }
-
-h2 
-{
+h2 {
   font-family: 'Dancing Script', cursive;
   font-size: 60px;
   text-align: center;
 }
-
-h3
-{
+h3 {
   font-family: 'Dancing Script', cursive;
   font-size: 60px;
   text-align: center;
 }
-
-p
-{
+p {
   font-family: 'Bilbo', cursive;
   font-size: 25px;
-  
 }
-
 section {
   padding-top: 56px;
 }
-
 #qmark {
   width: 2em;
   height: 2em;
 }
-
 #photonum {
   width: 150%;
 }
-
 #polenum {
   width: 150%;
 }
-
 #border-right {
   border-right: 1px solid #e6e6e6;
 }
-
 body {
   background-image: url(image/bg_light.png)
 }
-
-.imgpole{
+.imgpole {
     width: 30%;
 }
-
-#pole{
+#pole {
     border: 1px solid black;
     width: 70em;
 }
-
-.nav-link
-{
+.nav-link {
   text-align: center;
   margin-right: 10px;
   margin-left: 15px;
@@ -74,15 +56,11 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 18px;
 }
-
-.navbar-brand
-{
+.navbar-brand {
   font-family: 'Dancing Script', cursive;
   font-size: 20px;
 }
-
-.card-title
-{
+.card-title {
   color: #800000;
   font-family: cursive; 
   font-size: 30px;
