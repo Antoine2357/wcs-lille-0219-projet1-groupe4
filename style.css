@@ -35,9 +35,12 @@ p
   height: 2em;
 }
 
-.lillenum {
-  width: 50%;
-  padding: 1%;
+#photonum {
+  width: 150%;
+}
+
+#polenum {
+  width: 150%;
 }
 
 #border-right {
@@ -48,24 +51,13 @@ body {
   background-image: url(image/bg_light.png)
 }
 
-#imgblanchemaille{
+.imgpole{
     width: 30%;
 }
 
-#imgplaineimage{
-    width:30%
-}
-
-#imgagtech{
-    width: 30%
-}
-
-#imgeurasante{
-    width: 30%
-}
-
-#imgubiquitaire{
-    width: 30%
+#pole{
+    border: 1px solid black;
+    width: 70em;
 }
 
 .nav-link
@@ -76,7 +68,7 @@ body {
   width: 180px;
   font-weight: bold;
   font-family: 'Dancing Script', cursive;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .navbar-brand
@@ -85,42 +77,10 @@ body {
   font-size: 20px;
 }
 
-
-
-#photonum {
-  width: 20%;
-  display: flex;
-  flex-direction: right;
-}
-
-#polenum {
-  width: 20%;
-  display: flex;
-  flex-direction: right;
-}
-/* Parallax */
-#plx {
-  background: url(image/bann.png);
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.wtitle {
-  padding: 11%;
-  /* height: 50%; */
-}
-.titleHeader {
-  height: 50px;
-}
-
-#background {
-  background-image: url(bann.png);
-  /* background-attachment: fixed; */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  padding-top: 10vw;
-  padding-bottom : 10 vw
+.card-title
+{
+  color: #800000;
+  font-family: cursive; 
+  font-size: 30px;
+  text-align: center;
 }
