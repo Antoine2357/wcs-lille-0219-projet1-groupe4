@@ -27,19 +27,6 @@ section {
   padding-top: 84px;
 }
 
-#qmark {
-  width: 2em;
-  height: 2em;
-}
-
-#photonum {
-  width: 150%;
-}
-
-#polenum {
-  width: 150%;
-}
-
 #border-right {
   border-right: 1px solid #e6e6e6;
 }
@@ -57,11 +44,6 @@ body {
   width: 30%;
 }
 
-#pole {
-  border: 1px solid black;
-  width: 70em;
-}
-
 .pole {
   text-align: justify;
 }
@@ -73,7 +55,7 @@ body {
 .card-title
 {
   color: #800000;
-  font-family: 'Thasadith', sans-serif;
+  font-family: cursive; 
   font-size: 30px;
   text-align: center;
 }
@@ -122,11 +104,3 @@ text-decoration: none;
   padding: 11%;
 }
 
-.bg_dark {
-  background-color: #2d2d30;
-  color : white
-}
-
-.twhite { 
-  color : black
-}
