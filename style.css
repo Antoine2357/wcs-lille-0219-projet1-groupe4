@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-@import url('https://fonts.googleapis.com/css?family=Bilbo');
 @import url('https://fonts.googleapis.com/css?family=Thasadith');
 h1 {
   font-family: 'Dancing Script', cursive;
@@ -13,7 +12,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Thasadith', sans-serif;
   font-size: 35px;
   text-align: center;
 }
@@ -94,6 +93,7 @@ body {
 em, strong
 {
   font-size: 30px;
+  
 }
 
 footer {
@@ -121,7 +121,14 @@ text-decoration: none;
 .wtitle {
   padding: 11%;
 }
+<<<<<<< HEAD
 .photoEvent
 {
   height: 60vmin;
+=======
+
+.bg_dark {
+  background-color: #2d2d30;
+  color : white
+>>>>>>> e53d77fdb05ce95b13e67b953aa91e7618c0d6bb
 }
