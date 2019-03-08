@@ -3,24 +3,24 @@
 @import url('https://fonts.googleapis.com/css?family=Thasadith');
 h1 {
   font-family: 'Dancing Script', cursive;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h2 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 60px;
-  text-align: center;
-}
-
-h3 {
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
   text-align: center;
 }
 
+h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  text-align: center;
+}
+
 p {
   font-family: 'Thasadith', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 section {
@@ -93,7 +93,7 @@ body {
 
 em, strong
 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 footer {
@@ -121,3 +121,4 @@ text-decoration: none;
 .wtitle {
   padding: 11%;
 }
+
