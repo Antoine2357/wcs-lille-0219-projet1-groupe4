@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css?family=Bilbo');
 @import url('https://fonts.googleapis.com/css?family=Thasadith');
-h1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 50px;
-}
-
-h2 {
+h1, h2 {
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
   text-align: center;
@@ -18,79 +13,48 @@ h3 {
   text-align: center;
 }
 
+a, a:hover {
+  color: white;
+}
+
 p {
   font-family: 'Thasadith', sans-serif;
   font-size: 20px;
-}
-
-section {
-  padding-top: 84px;
-}
-
-#border-right {
-  border-right: 1px solid #e6e6e6;
-}
-
-#collaboators img {
-  width: 160px;
-  height: 160px;
 }
 
 body {
   background-image: url(image/bg_light.png)
 }
 
-.imgpole {
-  height: 100%;
+section {
+  padding-top: 84px;
 }
 
 .pole {
   text-align: justify;
 }
+
 .navbar {
   font-family: 'Thasadith', sans-serif;
   font-size: 1.5em;
 }
 
-.card-title
-{
+.card-title {
   color: #800000;
   font-family: cursive; 
   font-size: 30px;
   text-align: center;
 }
 
-.color {
-  background-color: ghostwhite
-  
-}
-.col-sm-4
-{
-  border: 10px solid transparent;
-  margin-bottom: 25px;
-  width: 80%;
-  height: 80%;
-
-}
-
-em, strong {
+strong {
   font-size: 30px;
 }
 
 footer {
-background-color: #2d2d30;
-color: #f5f5f5;
-padding: 11px
+  color: #f5f5f5;
+  padding: 11px
 }
 
-footer a {
-color: #f5f5f5;
-}
-
-footer a:hover {
-color: #777;
-text-decoration: none;
-}
 /* Parallax */
 #plx {
   background: url(image/bann.png);
