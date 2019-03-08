@@ -121,8 +121,14 @@ text-decoration: none;
 .wtitle {
   padding: 11%;
 }
+<<<<<<< HEAD
+.photoEvent
+{
+  height: 60vmin;
+=======
 
 .bg_dark {
   background-color: #2d2d30;
   color : white
+>>>>>>> e53d77fdb05ce95b13e67b953aa91e7618c0d6bb
 }
