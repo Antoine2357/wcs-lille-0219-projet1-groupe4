@@ -104,3 +104,11 @@ text-decoration: none;
   padding: 11%;
 }
 
+.bg_dark {
+  background-color: #2d2d30;
+  color : white
+}
+
+.twhite { 
+  color : black
+}
