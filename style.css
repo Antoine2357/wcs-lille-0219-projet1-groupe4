@@ -121,4 +121,7 @@ text-decoration: none;
 .wtitle {
   padding: 11%;
 }
-
+.photoEvent
+{
+  height: 60vmin;
+}
