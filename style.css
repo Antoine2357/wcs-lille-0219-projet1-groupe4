@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css?family=Bilbo');
-
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
 h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 60px;
@@ -19,7 +19,7 @@ h3 {
 }
 
 p {
-  font-family: 'Bilbo', cursive;
+  font-family: 'Thasadith', sans-serif;
   font-size: 25px;
 }
 
@@ -66,7 +66,7 @@ body {
   text-align: justify;
 }
 .navbar {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Thasadith', sans-serif;
   font-size: 1.5em;
 }
 
