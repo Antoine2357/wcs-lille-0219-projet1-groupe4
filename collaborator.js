@@ -1,42 +1,38 @@
-const collaborators = [
+const collaborator = [
     {
-        firstName: "Richard",
-        lastName: "GAILLET",
-        photo: "image/RichardGaillet.jpg",
-        mail: "email@email.email",
+        "firstName": "Richard",
+        "lastName": "Gaillet",
+        "imgUrl": "image/RichardGaillet.jpg",
+        "imgAlt": "Richard Gaillet"
     },
     {
-        firstName: "Alexandre",
-        lastName: "PASQUIER",
-        photo: "image/AlexandrePasquier.jpeg",
-        mail: "email@email.email",
+        "firstName": "Alexandre",
+        "lastName": "Pasquier",
+        "imgUrl": "image/AlexandrePasquier.jpeg",
+        "imgAlt": "Alexandre Pasquier"
     },
     {
-        firstName: "Loukiana",
-        lastName: "VIVENOT",
-        photo: "image/LoukianaVivenot.jpeg",
-        mail: "email@email.email",
+        "firstName": "Loukiana",
+        "lastName": "Vivenot",
+        "imgUrl": "image/LoukianaVivenot.jpeg",
+        "imgAlt": "Loukiana Vivenot"
     },
     {
-        firstName: "Maryline",
-        lastName: "ALVES",
-        photo: "image/MarylineAlves.jpeg",
-        mail: "email@email.email",
+        "firstName": "Maryline",
+        "lastName": "Alves",
+        "imgUrl": "image/MarylineAlves.jpeg",
+        "imgAlt": "Maryline Alves"
     },
     {
-        firstName: "Antoine",
-        lastName: "JACQMIN",
-        photo: "image/AntoineJacqmin.jpg",
-        mail: "email@email.email",
+        "firstName": "Antoine",
+        "lastName": "Jacqmin",
+        "imgUrl": "image/AntoineJacqmin.jpg",
+        "imgAlt": "Antoine Jacqmin"
     },
     {
-        firstName: "Jordan",
-        lastName: "BONJEAN",
-        photo: "image/JordanBonjean.jpg",
-        mail: "email@email.email",
+        "firstName": "Jordan",
+        "lastName": "Bonjean",
+        "imgUrl": "image/JordanBonjean.jpg",
+        "imgAlt": "Jordan Bonjean"
     },
 ];
-
-const photoColl = document.getElementById('photocoll');
-
-photoColl.inner
