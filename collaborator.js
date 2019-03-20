@@ -2,7 +2,7 @@ const collaborator = [
     {
         "firstName": "Richard",
         "lastName": "Gaillet",
-        "imgUrl": "image/RichardGaillet.jpg",
+        "imgUrl": "image/RichardGaillet.jpeg",
         "imgAlt": "Richard Gaillet"
     },
     {
@@ -26,13 +26,13 @@ const collaborator = [
     {
         "firstName": "Antoine",
         "lastName": "Jacqmin",
-        "imgUrl": "image/AntoineJacqmin.jpg",
+        "imgUrl": "image/AntoineJacqmin.jpeg",
         "imgAlt": "Antoine Jacqmin"
     },
     {
         "firstName": "Jordan",
         "lastName": "Bonjean",
-        "imgUrl": "image/JordanBonjean.jpg",
+        "imgUrl": "image/JordanBonjean.jpeg",
         "imgAlt": "Jordan Bonjean"
     },
 ];
