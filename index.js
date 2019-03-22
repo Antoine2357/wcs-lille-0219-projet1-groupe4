@@ -13,7 +13,7 @@ document.body.onload = () => {
         newImg.alt = collaborator[i].imgAlt;
 
         const newDiv = document.createElement('div');
-        newDiv.classList.add("blur", "p-3", "col-md-6", "col-lg-4", "col-xl-4", "border", "border-dark");
+        newDiv.classList.add("sepia", "p-3", "col-md-6", "col-lg-4", "col-xl-4", "border", "border-dark");
         newDiv.append(newP);
         newDiv.append(newImg);
 
