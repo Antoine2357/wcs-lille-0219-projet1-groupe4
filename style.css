@@ -22,9 +22,7 @@ p {
   font-size: 20px;
 }
 
-body {
-  background-image: url(image/bg_light.png)
-}
+
 
 section {
   padding-top: 84px;
@@ -86,3 +84,35 @@ footer {
 .twhite { 
   color : black
 }
+
+
+.dark {
+  background-color: #2d2d30;
+  color: #ffffff;
+}
+
+.dark button {
+  background: white;
+  color: #2d2d30;
+}
+
+.btnn {
+  width:85px;
+	height:85px;
+	background:#fafafa;
+	box-shadow:2px 2px 8px #aaa;
+	font:bold 13px Arial;
+	border-radius:50%;
+  color:#555;3);
+  
+}
+
+
+
+
+
+
+
+
+
+

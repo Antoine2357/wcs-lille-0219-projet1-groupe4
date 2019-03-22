@@ -43,3 +43,32 @@ document.body.onload = () => {
         numeric.append(newDiv);
     }
 }
+
+
+
+
+
+$("#darkTrigger").click(function(){
+    if ($("body").hasClass("dark")){
+        $("body").removeClass("dark");
+    }
+    else{
+        $("body").addClass("dark");
+    }
+});
+
+$(document).ready(function () {
+    let d = new Date();
+    let n = d.getHours();
+
+    if(n > 17 || n < 8){
+        $("body").addClass("dark");
+    }
+});
+
+
+
+
+
+
+
