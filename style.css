@@ -1,51 +1,73 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css?family=Bilbo');
 @import url('https://fonts.googleapis.com/css?family=Thasadith');
+
+/*balises*/
+
+body {
+  background: url("image/bg_light.png");
+}
+
+footer {
+  color: white;
+  padding: 11px
+}
+
 h1, h2 {
   font-family: 'Dancing Script', cursive;
-  font-size: 50px;
+  font-size: 3em;
   text-align: center;
 }
 
 h3 {
   font-family: 'Thasadith', cursive;
-  font-size: 35px;
+  font-size: 2rem;
   text-align: center;
-}
-
-a, a:hover {
-  color: white;
 }
 
 p {
   font-family: 'Thasadith', sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
-
-
 
 section {
   padding-top: 84px;
 }
 
-.sepia img {
-	-webkit-filter: sepia(100%);
-	filter: sepia(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.sepia img:hover {
-	-webkit-filter: sepia(0);
-	filter: sepia(0);
+strong {
+  font-size: 30px;
 }
 
-.pole {
-  text-align: justify;
+/*Id*/
+
+#euratechnologies img {
+  height: 25vw;
 }
 
-.navbar {
-  font-family: 'Thasadith', sans-serif;
-  font-size: 1.5em;
+#lnelogo {
+  height: 10vh;
+}
+
+/*class*/
+
+.bg_dark {
+  background-color: silver;
+  color : white
+}
+
+.bg_secondary {
+  background-color: silver;
+}
+
+.btnn {
+  width:50px;
+	height:50px;
+	background:#fafafa;
+	box-shadow:2px 2px 8px #aaa;
+	font:bold 10px Arial;
+	border-radius:50%;
+  color:#555;
+  float: left;  
 }
 
 .card-title {
@@ -54,37 +76,6 @@ section {
   font-size: 30px;
   text-align: center;
 }
-
-strong {
-  font-size: 30px;
-}
-
-footer {
-  color: #f5f5f5;
-  padding: 11px
-}
-
-/* Parallax */
-#plx {
-  background: url(image/bann.png);
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.wtitle {
-  padding: 11%;
-}
-
-.bg_dark {
-  background-color: #2d2d30;
-  color : white
-}
-
-.twhite { 
-  color : black
-}
-
 
 .dark {
   background-color: #2d2d30;
@@ -96,23 +87,26 @@ footer {
   color: #2d2d30;
 }
 
-.btnn {
-  width:85px;
-	height:85px;
-	background:#fafafa;
-	box-shadow:2px 2px 8px #aaa;
-	font:bold 13px Arial;
-	border-radius:50%;
-  color:#555;3);
-  
+.img-thumbnail {padding: 0.33%;
 }
 
+.navbar {
+  font-family: 'Thasadith', sans-serif;
+  font-size: 1.5em;
+}
 
+.sepia img {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
 
+.sepia img:hover {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
 
-
-
-
-
-
-
+.twhite { 
+  color : black
+}
