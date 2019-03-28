@@ -4,8 +4,9 @@ document.body.onload = () => {
     for(let i = 0 ; i<collaborator.length ; i++) {
         console.log(collaborator[i]);
 
-        const newP = document.createElement("p");
+        const newP = document.createElement("h3");
         newP.innerHTML = `${collaborator[i].firstName} ${collaborator[i].lastName}`;
+        
 
         const newImg = document.createElement('img');
         newImg.classList.add("rounded-circle");

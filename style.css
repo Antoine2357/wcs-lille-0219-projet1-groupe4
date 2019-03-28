@@ -5,22 +5,41 @@
 /*balises*/
 
 body {
-  background: url("image/bg_light.png");
+  background-color: silver;
 }
 
 footer {
   color: white;
-  padding: 11px
+  padding: 11px;
+  background-color: #6d747c;
 }
 
 h1, h2 {
   font-family: 'Dancing Script', cursive;
   text-align: center;
+  color: white;
+  text-shadow: 0px 0px 3px #f36c6c;
+  font-weight: bold;
 }
 
 h3 {
   font-family: 'Thasadith', cursive;
   text-align: center;
+  color: #f36c6c;
+  font-weight: bold;
+}
+
+h5 {
+  color: #f36c6c !important;
+}
+
+nav {
+  background-color: silver !important;
+}
+
+li:hover {
+  box-shadow: 0px 0px 5px #6d747c;
+  font-weight: bold;
 }
 
 p {
@@ -30,6 +49,10 @@ p {
 
 section {
   padding-top: 10vh;
+}
+
+section h2 {
+  background-color: #6d747c;
 }
 
 strong {
@@ -44,10 +67,6 @@ strong {
 
 #lnelogo {
   height: 10vh;
-}
-
-#plx {
-  background: url(image/bann.png) center 0 no-repeat fixed;
 }
 
 /*class*/
