@@ -15,13 +15,11 @@ footer {
 
 h1, h2 {
   font-family: 'Dancing Script', cursive;
-  font-size: 3em;
   text-align: center;
 }
 
 h3 {
   font-family: 'Thasadith', cursive;
-  font-size: 2rem;
   text-align: center;
 }
 
@@ -31,7 +29,7 @@ p {
 }
 
 section {
-  padding-top: 84px;
+  padding-top: 10vh;
 }
 
 strong {
@@ -41,11 +39,15 @@ strong {
 /*Id*/
 
 #euratechnologies img {
-  height: 25vw;
+  height: 25vh;
 }
 
 #lnelogo {
   height: 10vh;
+}
+
+#plx {
+  background: url(image/bann.png) center 0 no-repeat fixed;
 }
 
 /*class*/
