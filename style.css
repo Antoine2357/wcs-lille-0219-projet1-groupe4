@@ -108,5 +108,10 @@ strong {
 }
 
 .twhite { 
-  color : black
+  color : black;
+}
+
+.eventBold {
+  font-weight: bold;
+  font-size: 20px;
 }
